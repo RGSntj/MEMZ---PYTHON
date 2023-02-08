@@ -10,8 +10,7 @@ def main():
   if MessageBox("Trojan", "WARNING", MB_ICONERROR):
     return
 
-for i in range(0, 5):
-  main()
+main()
 
 desk = GetDC(0)
 
